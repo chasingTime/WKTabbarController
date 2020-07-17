@@ -8,7 +8,7 @@ target 'WKTabbarController_Example' do
   target 'WKTabbarController_Tests' do
     inherit! :search_paths
 
-    
   end
+  
   pod 'AxcAE_TabBar'
 end

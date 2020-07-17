@@ -6,39 +6,32 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		39702299F1E05F73851E2BC93D0C87EF /* WKTabbarController */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 1DBD4897F2AA86356E419BB3166DD097 /* Build configuration list for PBXAggregateTarget "WKTabbarController" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = WKTabbarController;
-			productName = WKTabbarController;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		18F51FEA24C134EA00F4A0E0 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 18F51FE924C134EA00F4A0E0 /* Classes */; };
-		18F51FEC24C134FE00F4A0E0 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 18F51FEB24C134FE00F4A0E0 /* Assets */; };
-		18F51FF724C13B0400F4A0E0 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F51FF324C13B0400F4A0E0 /* BaseTabBar.m */; };
-		18F51FF824C13B0400F4A0E0 /* BasedUsingTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F51FF624C13B0400F4A0E0 /* BasedUsingTabBarVC.m */; };
+		0D4EC45530CD2443E28A5AAAC8D7F0CE /* WKTabbarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9416B4788D657E4B9CD3311F4CE02E21 /* WKTabbarController-dummy.m */; };
 		1A9007492D273A5BEB696F5BE485A20A /* Pods-WKTabbarController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5247B4DAADFDDF43878311873CCE01C /* Pods-WKTabbarController_Tests-dummy.m */; };
 		2223AC210DE63B879A649BBFFF6D80A6 /* Pods-WKTabbarController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9AFB40EBBC2028E8A064E5C1B2EE66 /* Pods-WKTabbarController_Example-dummy.m */; };
+		31ACB3DA99CB60F0DD646EAE49E101C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142B0FED27F9302FA596E0CA9B76BFDE /* MapKit.framework */; };
 		3E1A3B28077C37313BE286CDBF860CED /* Pods-WKTabbarController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07CA87EA9FFA84B1EE249560392C09BE /* Pods-WKTabbarController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5086D29001607C8CA1FC06A4129C5957 /* AxcAE_TabBarDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3596F5D7E8D04213FEA2BA8B180D66E /* AxcAE_TabBarDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54CD5BA646A96541D496D6CE321D5131 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A8F893F0F93C8A5F7EAF71EBD740B0 /* UIKit.framework */; };
 		9F961DCB264354924616BD32163DF6EE /* AxcAE_TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F2C3884BDCDFB5BEEF14638775FEE4 /* AxcAE_TabBarItem.m */; };
-		A138BBDA4BEE35CE061E15BB860E92CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A138BBDA4BEE35CE061E15BB860E92CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */; };
+		A1D278006CC2B37526D8E14359BBCD2E /* BasedUsingTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F8C534D714850F77796969D8A61EF7 /* BasedUsingTabBarVC.m */; };
+		A4411F6C4CA312309999C6B2AA156D06 /* BasedUsingTabBarVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 123B3E58D937F0BF0A8EB6E46B4F24C3 /* BasedUsingTabBarVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A44BE6F24105969B3185407A1A57ABA0 /* AxcAE_TabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AC3567E1DEFD3B5530E461F540DDAD3 /* AxcAE_TabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0BF3F317C2E43FFC0B5BBCA12112B0B /* AxcAE_TabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4268A073E9C2BCF53827F3C0406767 /* AxcAE_TabBarBadge.m */; };
 		B7204E19C1E1172561B68C53AE051697 /* AxcAE_TabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF9BC4B2323AE616B033B56E96AA98A /* AxcAE_TabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA7041E5C19B5E376F2B61AB8D24582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		BDF3D3DFB41C944643B4EE005F30FBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BDA7041E5C19B5E376F2B61AB8D24582 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */; };
+		BDF3D3DFB41C944643B4EE005F30FBCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */; };
+		C2671B69F1E44B9326F73F972D2BCDD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */; };
 		CD6F4C0D42625D44B8A7F477DC744466 /* Pods-WKTabbarController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A30A5A6449EE5C7E9531B66D60468368 /* Pods-WKTabbarController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D28F31ED9A258994D32E35122241290D /* AxcAE_TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6FFB9E6D800BB0A845D1E26DBE9654 /* AxcAE_TabBar.m */; };
+		D82438D1F0525E9C2E318B48B8B99D97 /* BaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B779CBD438A19A622C15D1295381D0 /* BaseTabBar.m */; };
 		DBAF1E0395E00F84C1CDD7AAF6150618 /* AxcAE_TabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EAAFF5EC57A7517C65CB81D8B6B6DF /* AxcAE_TabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED5ED46123DADB5B15936C9E18EB5649 /* WKTabbarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4AD3E2B59E924A55B952F33E1C555B /* WKTabbarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0562F88D8542EBF3756BC2B7D46542D /* AxcAE_TabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82D1A448A888071F98D338EF92B9C073 /* AxcAE_TabBar.framework */; };
 		F102EECB104783D7CEFAF773227138E1 /* AxcAE_TabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905BEB3D8288796A4016B7AAB4B17AE1 /* AxcAE_TabBar-dummy.m */; };
+		F379DE218BD056DC46DF231505A34759 /* BaseTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1DF5DDD21DC49426F231CB3EE0C815 /* BaseTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F45B1FD871B6016A0578811CF945F868 /* AxcAE_TabBarBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBD6CB683A0D378017CB3191058CA4C /* AxcAE_TabBarBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -64,56 +57,70 @@
 			remoteGlobalIDString = FAA32F40F459B82E174BBB502AE9C49B;
 			remoteInfo = "Pods-WKTabbarController_Example";
 		};
+		E7CEEDC2B75EFD4BB7AF86348EDC39E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 236D0799788605C2A2A71BD0A2860B8A;
+			remoteInfo = AxcAE_TabBar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04D001A6D07B492BE013FDEF6510112E /* Pods-WKTabbarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTabbarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		06F3AC83921276E9D72A2182EF671CD4 /* WKTabbarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WKTabbarController.framework; path = WKTabbarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07CA87EA9FFA84B1EE249560392C09BE /* Pods-WKTabbarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKTabbarController_Example-umbrella.h"; sourceTree = "<group>"; };
-		0A0805AB133737ACAAB511B7D1819DAB /* WKTabbarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WKTabbarController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0AC3567E1DEFD3B5530E461F540DDAD3 /* AxcAE_TabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AxcAE_TabBar.h; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBar.h; sourceTree = "<group>"; };
 		0B9AFB40EBBC2028E8A064E5C1B2EE66 /* Pods-WKTabbarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKTabbarController_Example-dummy.m"; sourceTree = "<group>"; };
 		0EABD79652C5E3EF50260A961D5D67CB /* AxcAE_TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AxcAE_TabBar.debug.xcconfig; sourceTree = "<group>"; };
-		18F51FE924C134EA00F4A0E0 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = WKTabbarController/Classes; sourceTree = "<group>"; };
-		18F51FEB24C134FE00F4A0E0 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = WKTabbarController/Assets; sourceTree = "<group>"; };
-		18F51FF324C13B0400F4A0E0 /* BaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTabBar.m; sourceTree = "<group>"; };
-		18F51FF424C13B0400F4A0E0 /* BasedUsingTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasedUsingTabBarVC.h; sourceTree = "<group>"; };
-		18F51FF524C13B0400F4A0E0 /* BaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTabBar.h; sourceTree = "<group>"; };
-		18F51FF624C13B0400F4A0E0 /* BasedUsingTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasedUsingTabBarVC.m; sourceTree = "<group>"; };
-		192E64C93FDBCE0ADB88E0D2ABC84A37 /* WKTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTabbarController.release.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		123B3E58D937F0BF0A8EB6E46B4F24C3 /* BasedUsingTabBarVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BasedUsingTabBarVC.h; path = WKTabbarController/BasedUsingTabBarVC.h; sourceTree = "<group>"; };
+		142B0FED27F9302FA596E0CA9B76BFDE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		204216E1F891AD3B0E34E16FB0A08B29 /* WKTabbarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTabbarController.release.xcconfig; sourceTree = "<group>"; };
+		296607B4BC6F6F84DF007CC46C707C8D /* WKTabbarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WKTabbarController.modulemap; sourceTree = "<group>"; };
+		2A1DF5DDD21DC49426F231CB3EE0C815 /* BaseTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTabBar.h; path = WKTabbarController/BaseTabBar.h; sourceTree = "<group>"; };
+		31949012C811C82CA22D2BEC2768CC44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		38A6B545CDA7AF57450A1C6790F8EAB8 /* AxcAE_TabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AxcAE_TabBar.modulemap; sourceTree = "<group>"; };
 		3CDC353C525D26B385D3160BCB815E71 /* Pods-WKTabbarController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKTabbarController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D8BF8D365B984DA889D4E928A103CF2 /* Pods_WKTabbarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKTabbarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DD56ACC9C56514F02201BADA3E591C0 /* Pods_WKTabbarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKTabbarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8BF8D365B984DA889D4E928A103CF2 /* Pods_WKTabbarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKTabbarController_Example.framework; path = "Pods-WKTabbarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD56ACC9C56514F02201BADA3E591C0 /* Pods_WKTabbarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WKTabbarController_Tests.framework; path = "Pods-WKTabbarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF384EC99FB00F15C56C35F96A488BF /* AxcAE_TabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AxcAE_TabBar-Info.plist"; sourceTree = "<group>"; };
 		3E4268A073E9C2BCF53827F3C0406767 /* AxcAE_TabBarBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AxcAE_TabBarBadge.m; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBarBadge.m; sourceTree = "<group>"; };
 		46A0E55D6863AB3BB9D7C46B933ACA41 /* AxcAE_TabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AxcAE_TabBar.release.xcconfig; sourceTree = "<group>"; };
 		5781E63FD3AD8E19F2134ED08EFEFDC9 /* Pods-WKTabbarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WKTabbarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58810029AE851951B20E8AEF7FAD0541 /* WKTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTabbarController.debug.xcconfig; sourceTree = "<group>"; };
+		63D6F02ED107D6AB715A0D55E5B82F15 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6A6FFB9E6D800BB0A845D1E26DBE9654 /* AxcAE_TabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AxcAE_TabBar.m; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBar.m; sourceTree = "<group>"; };
-		6B56B762E264D6D52E8125A38D2D67B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6F26CE81F3F9F043DC842BF3AF86CC26 /* Pods-WKTabbarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTabbarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7692B0488E9376740D2391C03BEDB9DE /* Pods-WKTabbarController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTabbarController_Tests-Info.plist"; sourceTree = "<group>"; };
+		76A8F893F0F93C8A5F7EAF71EBD740B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		79F2C3884BDCDFB5BEEF14638775FEE4 /* AxcAE_TabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AxcAE_TabBarItem.m; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBarItem.m; sourceTree = "<group>"; };
 		7DF9BC4B2323AE616B033B56E96AA98A /* AxcAE_TabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AxcAE_TabBarItem.h; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBarItem.h; sourceTree = "<group>"; };
 		7F10CC2E63016A8E9F785DAB738ED59D /* Pods-WKTabbarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKTabbarController_Example.modulemap"; sourceTree = "<group>"; };
+		82D1A448A888071F98D338EF92B9C073 /* AxcAE_TabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxcAE_TabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		905BEB3D8288796A4016B7AAB4B17AE1 /* AxcAE_TabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AxcAE_TabBar-dummy.m"; sourceTree = "<group>"; };
+		9416B4788D657E4B9CD3311F4CE02E21 /* WKTabbarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WKTabbarController-dummy.m"; sourceTree = "<group>"; };
 		9D44A733C363BA304D59AE112699D0F5 /* AxcAE_TabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AxcAE_TabBar-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A30A5A6449EE5C7E9531B66D60468368 /* Pods-WKTabbarController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WKTabbarController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A3596F5D7E8D04213FEA2BA8B180D66E /* AxcAE_TabBarDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AxcAE_TabBarDefine.h; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBarDefine.h; sourceTree = "<group>"; };
-		A401DAF3A0D14F55E6AA56BD8162C965 /* WKTabbarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WKTabbarController.debug.xcconfig; sourceTree = "<group>"; };
+		A3630F4FFD7BB83F7EACCCDE5278C516 /* WKTabbarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WKTabbarController-Info.plist"; sourceTree = "<group>"; };
 		A4C49D609332146C2360E392DD592E5B /* Pods-WKTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AB3200465720F6C284138B4B91CF2C3C /* Pods-WKTabbarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTabbarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF50C295FE39F5DC1006F3E7DDA10E95 /* Pods-WKTabbarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTabbarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B5247B4DAADFDDF43878311873CCE01C /* Pods-WKTabbarController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WKTabbarController_Tests-dummy.m"; sourceTree = "<group>"; };
 		BD510F7AA63E496D38EBB6C10B0CBA37 /* Pods-WKTabbarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WKTabbarController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C8C295356AF4807241A8E051EF6757F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C1B779CBD438A19A622C15D1295381D0 /* BaseTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTabBar.m; path = WKTabbarController/BaseTabBar.m; sourceTree = "<group>"; };
+		CE4AD3E2B59E924A55B952F33E1C555B /* WKTabbarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTabbarController-umbrella.h"; sourceTree = "<group>"; };
 		D3798664612392F0C229E3F890FB9936 /* Pods-WKTabbarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WKTabbarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4FC4D19EF3E02C19B13D34FDAA0C77C /* Pods-WKTabbarController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WKTabbarController_Example-Info.plist"; sourceTree = "<group>"; };
-		D7192A89BB670162E6815DD22D579B21 /* AxcAE_TabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AxcAE_TabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7192A89BB670162E6815DD22D579B21 /* AxcAE_TabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AxcAE_TabBar.framework; path = AxcAE_TabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F8C534D714850F77796969D8A61EF7 /* BasedUsingTabBarVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BasedUsingTabBarVC.m; path = WKTabbarController/BasedUsingTabBarVC.m; sourceTree = "<group>"; };
 		E56DCE305ED6F2F37AE11CEEE8A77062 /* Pods-WKTabbarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WKTabbarController_Tests.modulemap"; sourceTree = "<group>"; };
 		E8EAAFF5EC57A7517C65CB81D8B6B6DF /* AxcAE_TabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AxcAE_TabBar-umbrella.h"; sourceTree = "<group>"; };
 		EDBD6CB683A0D378017CB3191058CA4C /* AxcAE_TabBarBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AxcAE_TabBarBadge.h; path = AxcAE_TabBar/AxcAE_TabBar/AxcAE_TabBarBadge.h; sourceTree = "<group>"; };
+		EF6FB974AB6F05DBB96D14E33B3BC6D5 /* WKTabbarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WKTabbarController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F062C32A8BAEBEAF1F8F4142CFD118DD /* WKTabbarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WKTabbarController-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +140,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F88C6AC6D2BCCB1A1A6DA1500ECF2D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0562F88D8542EBF3756BC2B7D46542D /* AxcAE_TabBar.framework in Frameworks */,
+				C2671B69F1E44B9326F73F972D2BCDD6 /* Foundation.framework in Frameworks */,
+				31ACB3DA99CB60F0DD646EAE49E101C1 /* MapKit.framework in Frameworks */,
+				54CD5BA646A96541D496D6CE321D5131 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FC674BBAD0CD3457BC13E28502463999 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,12 +162,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095A7545BF4981E9DA6E6483B57A1A67 /* Development Pods */ = {
+		0B0EEC113105A0102062F67CBCB15B96 /* WKTabbarController */ = {
 			isa = PBXGroup;
 			children = (
-				AC930A5694239C74D1C3C11511463E86 /* WKTabbarController */,
+				123B3E58D937F0BF0A8EB6E46B4F24C3 /* BasedUsingTabBarVC.h */,
+				E0F8C534D714850F77796969D8A61EF7 /* BasedUsingTabBarVC.m */,
+				2A1DF5DDD21DC49426F231CB3EE0C815 /* BaseTabBar.h */,
+				C1B779CBD438A19A622C15D1295381D0 /* BaseTabBar.m */,
+				1ED4F3C0AF6264545BA98EFB493EAE61 /* Pod */,
+				B53DE40E927C6B84DBF1F17B251E9808 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WKTabbarController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1ED4F3C0AF6264545BA98EFB493EAE61 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				31949012C811C82CA22D2BEC2768CC44 /* LICENSE */,
+				63D6F02ED107D6AB715A0D55E5B82F15 /* README.md */,
+				EF6FB974AB6F05DBB96D14E33B3BC6D5 /* WKTabbarController.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		2E3DEC47C37409F61C052981AF91EC1A /* Support Files */ = {
@@ -165,6 +199,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AxcAE_TabBar";
+			sourceTree = "<group>";
+		};
+		3D4C436796AB70BDEC92B6DF52AEBF64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82D1A448A888071F98D338EF92B9C073 /* AxcAE_TabBar.framework */,
+				F2758A8C5761FCB67B0D8EBBA8F41E96 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FB02B48625FD2A20BE55E7A0E1721AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0EEC113105A0102062F67CBCB15B96 /* WKTabbarController */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5062905532DE159C152C21EE08480C5E /* Pods-WKTabbarController_Example */ = {
@@ -192,26 +243,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7A25D674E3DACD3C4394D20C253B7D80 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D7192A89BB670162E6815DD22D579B21 /* AxcAE_TabBar.framework */,
-				3D8BF8D365B984DA889D4E928A103CF2 /* Pods_WKTabbarController_Example.framework */,
-				3DD56ACC9C56514F02201BADA3E591C0 /* Pods_WKTabbarController_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7D6C76F516345D07B183D530BFA8EE64 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A401DAF3A0D14F55E6AA56BD8162C965 /* WKTabbarController.debug.xcconfig */,
-				192E64C93FDBCE0ADB88E0D2ABC84A37 /* WKTabbarController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WKTabbarController";
-			sourceTree = "<group>";
-		};
 		88BF50A70371D2132391ECE9EFF59A7C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,58 +252,42 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AC930A5694239C74D1C3C11511463E86 /* WKTabbarController */ = {
+		B53DE40E927C6B84DBF1F17B251E9808 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				18F51FF424C13B0400F4A0E0 /* BasedUsingTabBarVC.h */,
-				18F51FF624C13B0400F4A0E0 /* BasedUsingTabBarVC.m */,
-				18F51FF524C13B0400F4A0E0 /* BaseTabBar.h */,
-				18F51FF324C13B0400F4A0E0 /* BaseTabBar.m */,
-				18F51FEB24C134FE00F4A0E0 /* Assets */,
-				18F51FE924C134EA00F4A0E0 /* Classes */,
-				C9F9976DD97EC696E5B431D3395448AA /* Pod */,
-				7D6C76F516345D07B183D530BFA8EE64 /* Support Files */,
+				296607B4BC6F6F84DF007CC46C707C8D /* WKTabbarController.modulemap */,
+				9416B4788D657E4B9CD3311F4CE02E21 /* WKTabbarController-dummy.m */,
+				A3630F4FFD7BB83F7EACCCDE5278C516 /* WKTabbarController-Info.plist */,
+				F062C32A8BAEBEAF1F8F4142CFD118DD /* WKTabbarController-prefix.pch */,
+				CE4AD3E2B59E924A55B952F33E1C555B /* WKTabbarController-umbrella.h */,
+				58810029AE851951B20E8AEF7FAD0541 /* WKTabbarController.debug.xcconfig */,
+				204216E1F891AD3B0E34E16FB0A08B29 /* WKTabbarController.release.xcconfig */,
 			);
-			name = WKTabbarController;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WKTabbarController";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		C7E78C106235C23EAA221575F921B918 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				D7192A89BB670162E6815DD22D579B21 /* AxcAE_TabBar.framework */,
+				3D8BF8D365B984DA889D4E928A103CF2 /* Pods_WKTabbarController_Example.framework */,
+				3DD56ACC9C56514F02201BADA3E591C0 /* Pods_WKTabbarController_Tests.framework */,
+				06F3AC83921276E9D72A2182EF671CD4 /* WKTabbarController.framework */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		C9F9976DD97EC696E5B431D3395448AA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C8C295356AF4807241A8E051EF6757F5 /* LICENSE */,
-				6B56B762E264D6D52E8125A38D2D67B9 /* README.md */,
-				0A0805AB133737ACAAB511B7D1819DAB /* WKTabbarController.podspec */,
-			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				095A7545BF4981E9DA6E6483B57A1A67 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4FB02B48625FD2A20BE55E7A0E1721AC /* Development Pods */,
+				3D4C436796AB70BDEC92B6DF52AEBF64 /* Frameworks */,
 				6AAB693977EE62146D11084FBFAE8FFD /* Pods */,
-				7A25D674E3DACD3C4394D20C253B7D80 /* Products */,
+				C7E78C106235C23EAA221575F921B918 /* Products */,
 				88BF50A70371D2132391ECE9EFF59A7C /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E4FB7A3901C14BB25250B67E48BA374A /* AxcAE_TabBar */ = {
@@ -287,6 +302,7 @@
 				79F2C3884BDCDFB5BEEF14638775FEE4 /* AxcAE_TabBarItem.m */,
 				2E3DEC47C37409F61C052981AF91EC1A /* Support Files */,
 			);
+			name = AxcAE_TabBar;
 			path = AxcAE_TabBar;
 			sourceTree = "<group>";
 		};
@@ -304,6 +320,16 @@
 			);
 			name = "Pods-WKTabbarController_Tests";
 			path = "Target Support Files/Pods-WKTabbarController_Tests";
+			sourceTree = "<group>";
+		};
+		F2758A8C5761FCB67B0D8EBBA8F41E96 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				784B2D75426E4A9D9C5F42EB80B8B94F /* Foundation.framework */,
+				142B0FED27F9302FA596E0CA9B76BFDE /* MapKit.framework */,
+				76A8F893F0F93C8A5F7EAF71EBD740B0 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +352,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD6F4C0D42625D44B8A7F477DC744466 /* Pods-WKTabbarController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C802A2C5C0A5FAEDAB534D59B0CE1667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4411F6C4CA312309999C6B2AA156D06 /* BasedUsingTabBarVC.h in Headers */,
+				F379DE218BD056DC46DF231505A34759 /* BaseTabBar.h in Headers */,
+				ED5ED46123DADB5B15936C9E18EB5649 /* WKTabbarController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +392,25 @@
 			name = AxcAE_TabBar;
 			productName = AxcAE_TabBar;
 			productReference = D7192A89BB670162E6815DD22D579B21 /* AxcAE_TabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39702299F1E05F73851E2BC93D0C87EF /* WKTabbarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F2726095FF07AE6779D1302F4BCCA1 /* Build configuration list for PBXNativeTarget "WKTabbarController" */;
+			buildPhases = (
+				C802A2C5C0A5FAEDAB534D59B0CE1667 /* Headers */,
+				867E3BF6889F9FBDEDFC6964DE3C3C66 /* Sources */,
+				F88C6AC6D2BCCB1A1A6DA1500ECF2D8A /* Frameworks */,
+				1756FF2A20DFE86DC66A314CBA04E9E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61840A35A59C19E5D573889ECD7BEFB /* PBXTargetDependency */,
+			);
+			name = WKTabbarController;
+			productName = WKTabbarController;
+			productReference = 06F3AC83921276E9D72A2182EF671CD4 /* WKTabbarController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA713ECED74612FCF3CA265F33EF24EF /* Pods-WKTabbarController_Tests */ = {
@@ -415,7 +470,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 7A25D674E3DACD3C4394D20C253B7D80 /* Products */;
+			productRefGroup = C7E78C106235C23EAA221575F921B918 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -435,12 +490,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1756FF2A20DFE86DC66A314CBA04E9E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		781C6AA03EF6CE3AFF4FD3937BD6F28A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F51FEA24C134EA00F4A0E0 /* Classes in Resources */,
-				18F51FEC24C134FE00F4A0E0 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F102EECB104783D7CEFAF773227138E1 /* AxcAE_TabBar-dummy.m in Sources */,
-				18F51FF824C13B0400F4A0E0 /* BasedUsingTabBarVC.m in Sources */,
 				D28F31ED9A258994D32E35122241290D /* AxcAE_TabBar.m in Sources */,
-				18F51FF724C13B0400F4A0E0 /* BaseTabBar.m in Sources */,
 				B0BF3F317C2E43FFC0B5BBCA12112B0B /* AxcAE_TabBarBadge.m in Sources */,
 				9F961DCB264354924616BD32163DF6EE /* AxcAE_TabBarItem.m in Sources */,
 			);
@@ -472,6 +530,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A9007492D273A5BEB696F5BE485A20A /* Pods-WKTabbarController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		867E3BF6889F9FBDEDFC6964DE3C3C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D278006CC2B37526D8E14359BBCD2E /* BasedUsingTabBarVC.m in Sources */,
+				D82438D1F0525E9C2E318B48B8B99D97 /* BaseTabBar.m in Sources */,
+				0D4EC45530CD2443E28A5AAAC8D7F0CE /* WKTabbarController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,9 +572,46 @@
 			target = 236D0799788605C2A2A71BD0A2860B8A /* AxcAE_TabBar */;
 			targetProxy = 67E53832C21EF03E6A15DF862D9C58D0 /* PBXContainerItemProxy */;
 		};
+		E61840A35A59C19E5D573889ECD7BEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AxcAE_TabBar;
+			target = 236D0799788605C2A2A71BD0A2860B8A /* AxcAE_TabBar */;
+			targetProxy = E7CEEDC2B75EFD4BB7AF86348EDC39E8 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		024477814C6DFF9DC7961F1F23DF773B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58810029AE851951B20E8AEF7FAD0541 /* WKTabbarController.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKTabbarController/WKTabbarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKTabbarController/WKTabbarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKTabbarController/WKTabbarController.modulemap";
+				PRODUCT_MODULE_NAME = WKTabbarController;
+				PRODUCT_NAME = WKTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		19A72C16E0D90F984A8FCF09B2BC8267 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3798664612392F0C229E3F890FB9936 /* Pods-WKTabbarController_Example.release.xcconfig */;
@@ -534,6 +639,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		447252E7A2F7A43CE1C0EF240E018E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204216E1F891AD3B0E34E16FB0A08B29 /* WKTabbarController.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WKTabbarController/WKTabbarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WKTabbarController/WKTabbarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WKTabbarController/WKTabbarController.modulemap";
+				PRODUCT_MODULE_NAME = WKTabbarController;
+				PRODUCT_NAME = WKTabbarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -594,23 +731,10 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5587DD2C33F4B5493998E7291EF059A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 192E64C93FDBCE0ADB88E0D2ABC84A37 /* WKTabbarController.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -775,19 +899,6 @@
 			};
 			name = Release;
 		};
-		C1D9E07692739AF7318A43ED0B59923B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A401DAF3A0D14F55E6AA56BD8162C965 /* WKTabbarController.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		FA4D74A3B4F8C81A0AB437EB78AB92CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F26CE81F3F9F043DC842BF3AF86CC26 /* Pods-WKTabbarController_Tests.debug.xcconfig */;
@@ -866,11 +977,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DBD4897F2AA86356E419BB3166DD097 /* Build configuration list for PBXAggregateTarget "WKTabbarController" */ = {
+		32F2726095FF07AE6779D1302F4BCCA1 /* Build configuration list for PBXNativeTarget "WKTabbarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1D9E07692739AF7318A43ED0B59923B /* Debug */,
-				5587DD2C33F4B5493998E7291EF059A5 /* Release */,
+				024477814C6DFF9DC7961F1F23DF773B /* Debug */,
+				447252E7A2F7A43CE1C0EF240E018E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

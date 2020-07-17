@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AxcAE_TabBar.h"
+#import <AxcAE_TabBar/AxcAE_TabBar.h>
 
 
 @interface BaseTabBar : UITabBarController

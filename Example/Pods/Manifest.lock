@@ -1,6 +1,7 @@
 PODS:
   - AxcAE_TabBar (1.0.5)
-  - WKTabbarController (0.1.0)
+  - WKTabbarController (0.1.0):
+    - AxcAE_TabBar
 
 DEPENDENCIES:
   - AxcAE_TabBar
@@ -16,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AxcAE_TabBar: 1d5bcf6c4921889dc38839b6ba2c584a9b55251a
-  WKTabbarController: baca41e11128e8b8f1941c1825c1042000a7388d
+  WKTabbarController: ea66e8c3a3769c6d1d584da32067c7fe5e05947c
 
-PODFILE CHECKSUM: 2819f7d8d3a10f1a6628ac15a3a66700654473a4
+PODFILE CHECKSUM: 46c6e4c1e9b8c4edeba665bca9eaba88557e347e
 
 COCOAPODS: 1.9.1

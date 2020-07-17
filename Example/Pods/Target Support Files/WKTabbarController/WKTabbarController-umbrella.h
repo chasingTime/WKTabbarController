@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "BasedUsingTabBarVC.h"
+#import "BaseTabBar.h"
 
 FOUNDATION_EXPORT double WKTabbarControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char WKTabbarControllerVersionString[];

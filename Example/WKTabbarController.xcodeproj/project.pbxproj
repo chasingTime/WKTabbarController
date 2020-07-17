@@ -302,10 +302,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WKTabbarController_Example/Pods-WKTabbarController_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AxcAE_TabBar/AxcAE_TabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/WKTabbarController/WKTabbarController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AxcAE_TabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKTabbarController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

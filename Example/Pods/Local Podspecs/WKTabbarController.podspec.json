@@ -22,5 +22,10 @@
   "frameworks": [
     "UIKit",
     "MapKit"
-  ]
+  ],
+  "dependencies": {
+    "AxcAE_TabBar": [
+
+    ]
+  }
 }
