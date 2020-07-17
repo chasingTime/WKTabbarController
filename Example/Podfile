@@ -4,11 +4,11 @@ platform :ios, '8.0'
 
 target 'WKTabbarController_Example' do
   pod 'WKTabbarController', :path => '../'
-
+  pod 'AxcAE_TabBar'
   target 'WKTabbarController_Tests' do
     inherit! :search_paths
 
   end
   
-  pod 'AxcAE_TabBar'
+  
 end

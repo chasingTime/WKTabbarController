@@ -6,9 +6,9 @@ Pod::Spec.new do |s|
   s.summary          = 'A short description of WKTabbarController.'
 
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description  = <<-DESC
+          LZTool 是一个用于保存一些常用工具类的工具
+  DESC
 
   s.homepage         = 'https://github.com/chasingTime/WKTabbarController'
 
@@ -23,5 +23,5 @@ TODO: Add long description of the pod here.
 
 
   s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AxcAE_TabBar'
+
 end
