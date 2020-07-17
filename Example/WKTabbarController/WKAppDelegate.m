@@ -7,12 +7,38 @@
 //
 
 #import "WKAppDelegate.h"
-
+#import "../../WKTabbarController/BasedUsingTabBarVC.h"
 @implementation WKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    NSArray <NSDictionary *>*VCArray =
+    @[
+      @{
+          @"vc":[UIViewController new],//控制器
+          @"normalImg":@"homePage",//未选中时图标
+          @"selectImg":@"homePage_select",//选中时图标
+          @"itemTitle":@"首页"//tabbarItem的标题
+          
+          },
+      
+      @{
+          @"vc":[UIViewController new],
+          @"normalImg":@"task",
+          @"selectImg":@"task_select",
+          @"itemTitle":@"AxcFormList"
+          },
+      
+      @{@"vc":[UIViewController new],@"normalImg":@"complaint",@"selectImg":@"complaint_select",@"itemTitle":@"AE_LineUI"},
+      
+      @{@"vc":[UIViewController new],@"normalImg":@"home_activity",@"selectImg":@"home_activity_select",@"itemTitle":@"AE_PopUI"},
+      
+      @{@"vc":[UIViewController new],@"normalImg":@"me",@"selectImg":@"me_select",@"itemTitle":@"AE_MultiUI"}
+      ];
+    BasedUsingTabBarVC * baseTVC=[[BasedUsingTabBarVC alloc]init];
+    self.window.rootViewController = baseTVC;
+    [self.window makeKeyWindow];
     return YES;
 }
 

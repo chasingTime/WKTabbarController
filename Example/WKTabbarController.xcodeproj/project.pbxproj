@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B71B2B55B23DF837BFA5E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0B71B2B55B23DF837BFA5E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		154F2D5521FD23E530782B20 /* Pods_WKTabbarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKTabbarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E08AAC95735D0B25857D6E /* Pods_WKTabbarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WKTabbarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* WKTabbarController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKTabbarController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		81E53DFFBEAA3B0AB9CB1514 /* Pods-WKTabbarController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKTabbarController_Tests.release.xcconfig"; path = "Target Support Files/Pods-WKTabbarController_Tests/Pods-WKTabbarController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		884C2C19EE280D4FFA8F7F6E /* Pods-WKTabbarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKTabbarController_Example.debug.xcconfig"; path = "Target Support Files/Pods-WKTabbarController_Example/Pods-WKTabbarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8B798B289E74299C668CAF17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		AE5652A37A85CE17570EC8EA /* WKTabbarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WKTabbarController.podspec; path = ../WKTabbarController.podspec; sourceTree = "<group>"; };
+		8B798B289E74299C668CAF17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AE5652A37A85CE17570EC8EA /* WKTabbarController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WKTabbarController.podspec; path = ../WKTabbarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD145F06C765B6575E188C6D /* Pods-WKTabbarController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKTabbarController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WKTabbarController_Tests/Pods-WKTabbarController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFDEBE4A928939A190C15ABB /* Pods-WKTabbarController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKTabbarController_Example.release.xcconfig"; path = "Target Support Files/Pods-WKTabbarController_Example/Pods-WKTabbarController_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				DD145F06C765B6575E188C6D /* Pods-WKTabbarController_Tests.debug.xcconfig */,
 				81E53DFFBEAA3B0AB9CB1514 /* Pods-WKTabbarController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -302,11 +301,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WKTabbarController_Example/Pods-WKTabbarController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WKTabbarController/WKTabbarController.framework",
+				"${BUILT_PRODUCTS_DIR}/AxcAE_TabBar/AxcAE_TabBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKTabbarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AxcAE_TabBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,23 @@
+PODS:
+  - AxcAE_TabBar (1.0.5)
+  - WKTabbarController (0.1.0)
+
+DEPENDENCIES:
+  - AxcAE_TabBar
+  - WKTabbarController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AxcAE_TabBar
+
+EXTERNAL SOURCES:
+  WKTabbarController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AxcAE_TabBar: 1d5bcf6c4921889dc38839b6ba2c584a9b55251a
+  WKTabbarController: baca41e11128e8b8f1941c1825c1042000a7388d
+
+PODFILE CHECKSUM: 2819f7d8d3a10f1a6628ac15a3a66700654473a4
+
+COCOAPODS: 1.9.1

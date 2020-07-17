@@ -1,0 +1,6 @@
+framework module WKTabbarController {
+  umbrella header "WKTabbarController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,4 +10,5 @@ target 'WKTabbarController_Example' do
 
     
   end
+  pod 'AxcAE_TabBar'
 end
